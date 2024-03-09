@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 1.em;
+}
+.container {
+    width: 80vw;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 8px #888888,
+                -10px -0 8px #888888;
+}
+.container h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+.teks{
+    font-family: Verdana;
+    text-align: justify;
+    word-spacing: 5px;
+    font-size: 24px;
+}
+.list {
+    font-size: 1.3em;
+    margin-left: 1em;
+}
+ul li {
+    margin: 10px;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #606ff5;
+    color: white;
+}
